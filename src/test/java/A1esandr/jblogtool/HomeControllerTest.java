@@ -31,6 +31,6 @@ public class HomeControllerTest {
                 .getResponse();
 
         // Assert
-        Assert.assertEquals("", result.getContentAsString());
+        Assert.assertEquals("test", result.getContentAsString());
     }
 }
